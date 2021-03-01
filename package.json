@@ -1,0 +1,13 @@
+{
+  "name": "metro-0.65-bug-repro",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node bundle.js",
+    "build": "metro build src/index.js -O bundle.js -t module"
+  },
+  "devDependencies": {
+    "metro": "0.65.1"
+  }
+}
